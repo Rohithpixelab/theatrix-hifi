@@ -33,7 +33,7 @@ export default function Header({ onOpenConsultation }: HeaderProps) {
             What We Do
           </a>
           <a
-            href="#portfolio"
+            href="/portfolio"
             className="px-3 py-1.5 font-outfit font-bold text-sm text-[#b1b1b2] hover:text-[#f0f0f2] rounded-md transition-colors hover:bg-white/5"
           >
             Portfolio
@@ -142,7 +142,7 @@ export default function Header({ onOpenConsultation }: HeaderProps) {
             What We Do
           </a>
           <a
-            href="#portfolio"
+            href="/portfolio"
             onClick={() => setMobileMenuOpen(false)}
             className="block font-outfit font-bold text-sm text-[#b1b1b2] hover:text-white py-1"
           >

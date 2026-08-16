@@ -51,8 +51,8 @@ export default function PortfolioSection({ onOpenConsultation }: PortfolioSectio
           </div>
 
           <a
-            href="#portfolio"
-            className="inline-flex items-center px-5 py-2.5 border border-[#e02020]/30 rounded-md font-outfit font-bold text-sm text-[#e02020] hover:bg-[#e02020]/10 transition-colors w-fit"
+            href="/portfolio"
+            className="inline-flex items-center px-5 py-2.5 border border-[#C82127]/30 rounded-md font-outfit font-bold text-sm text-[#C82127] hover:bg-[#C82127]/10 transition-colors w-fit"
           >
             View Full Portfolio →
           </a>
