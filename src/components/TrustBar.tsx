@@ -19,10 +19,10 @@ export default function TrustBar() {
   const marqueeBrands = [...brands, ...brands, ...brands];
 
   return (
-    <section className="w-full bg-[#e02020] text-white py-4 md:py-5 shadow-lg overflow-hidden relative select-none z-20">
+    <section className="w-full bg-[#C82127] text-white py-4 md:py-5 shadow-lg overflow-hidden relative select-none z-20">
       {/* Left & Right red gradient edge fade masks */}
-      <div className="absolute left-0 top-0 bottom-0 w-16 md:w-32 bg-gradient-to-r from-[#e02020] to-transparent z-10 pointer-events-none" />
-      <div className="absolute right-0 top-0 bottom-0 w-16 md:w-32 bg-gradient-to-l from-[#e02020] to-transparent z-10 pointer-events-none" />
+      <div className="absolute left-0 top-0 bottom-0 w-16 md:w-32 bg-gradient-to-r from-[#C82127] to-transparent z-10 pointer-events-none" />
+      <div className="absolute right-0 top-0 bottom-0 w-16 md:w-32 bg-gradient-to-l from-[#C82127] to-transparent z-10 pointer-events-none" />
 
       {/* Auto-scrolling marquee track */}
       <div className="w-full overflow-hidden">

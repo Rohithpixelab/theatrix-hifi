@@ -35,8 +35,8 @@ export default function ServicesSection() {
         {/* Header */}
         <div className="max-w-[580px] space-y-4">
           <div className="flex items-center gap-2.5">
-            <div className="w-6 h-[2px] bg-[#e02020]" />
-            <span className="font-outfit font-bold text-sm text-[#e02020]">
+            <div className="w-6 h-[2px] bg-[#C82127]" />
+            <span className="font-outfit font-bold text-sm text-[#C82127]">
               What We Do
             </span>
           </div>

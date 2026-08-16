@@ -26,7 +26,7 @@ export default function Footer({ onOpenConsultation }: FooterProps) {
                 target="_blank"
                 rel="noreferrer"
                 title="Instagram"
-                className="w-9 h-9 border border-white/10 rounded-lg flex items-center justify-center hover:border-[#e02020] hover:bg-[#e02020]/10 transition-colors"
+                className="w-9 h-9 border border-white/10 rounded-lg flex items-center justify-center hover:border-[#C82127] hover:bg-[#C82127]/10 transition-colors"
               >
                 <Image src="/assets/icon-instagram.svg" alt="Instagram" width={18} height={18} />
               </a>
@@ -35,7 +35,7 @@ export default function Footer({ onOpenConsultation }: FooterProps) {
                 target="_blank"
                 rel="noreferrer"
                 title="Facebook"
-                className="w-9 h-9 border border-white/10 rounded-lg flex items-center justify-center hover:border-[#e02020] hover:bg-[#e02020]/10 transition-colors"
+                className="w-9 h-9 border border-white/10 rounded-lg flex items-center justify-center hover:border-[#C82127] hover:bg-[#C82127]/10 transition-colors"
               >
                 <Image src="/assets/icon-facebook.svg" alt="Facebook" width={18} height={18} />
               </a>
@@ -44,7 +44,7 @@ export default function Footer({ onOpenConsultation }: FooterProps) {
                 target="_blank"
                 rel="noreferrer"
                 title="YouTube"
-                className="w-9 h-9 border border-white/10 rounded-lg flex items-center justify-center hover:border-[#e02020] hover:bg-[#e02020]/10 transition-colors"
+                className="w-9 h-9 border border-white/10 rounded-lg flex items-center justify-center hover:border-[#C82127] hover:bg-[#C82127]/10 transition-colors"
               >
                 <Image src="/assets/icon-youtube.svg" alt="YouTube" width={18} height={18} />
               </a>
@@ -215,7 +215,7 @@ export default function Footer({ onOpenConsultation }: FooterProps) {
               <div className="pt-3">
                 <button
                   onClick={onOpenConsultation}
-                  className="font-outfit font-semibold text-xs text-[#e02020] tracking-wider uppercase hover:underline"
+                  className="font-outfit font-semibold text-xs text-[#C82127] tracking-wider uppercase hover:underline"
                 >
                   Book a Visit →
                 </button>

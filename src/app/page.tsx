@@ -20,7 +20,7 @@ export default function TheatrixHifiHomepage() {
   const handleCloseConsultation = () => setIsConsultationOpen(false);
 
   return (
-    <main className="min-h-screen bg-[#111115] text-[#f0f0f2] flex flex-col font-sans selection:bg-[#e02020] selection:text-white">
+    <main className="min-h-screen bg-[#111115] text-[#f0f0f2] flex flex-col font-sans selection:bg-[#C82127] selection:text-white">
       {/* Navigation Header */}
       <Header onOpenConsultation={handleOpenConsultation} />
 

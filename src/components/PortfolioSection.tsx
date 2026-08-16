@@ -35,8 +35,8 @@ export default function PortfolioSection({ onOpenConsultation }: PortfolioSectio
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div className="space-y-3 max-w-[552px]">
             <div className="flex items-center gap-2.5">
-              <div className="w-6 h-[2px] bg-[#e02020]" />
-              <span className="font-outfit font-bold text-sm text-[#e02020]">
+              <div className="w-6 h-[2px] bg-[#C82127]" />
+              <span className="font-outfit font-bold text-sm text-[#C82127]">
                 Our Work
               </span>
             </div>
@@ -78,7 +78,7 @@ export default function PortfolioSection({ onOpenConsultation }: PortfolioSectio
 
               {/* Card Footer Content */}
               <div className="absolute bottom-5 left-5 right-5 space-y-2">
-                <span className="inline-block px-3 py-1 bg-[#e02020]/15 border border-[#e02020]/30 rounded font-outfit font-bold text-xs text-[#e02020]">
+                <span className="inline-block px-3 py-1 bg-[#C82127]/15 border border-[#C82127]/30 rounded font-outfit font-bold text-xs text-[#C82127]">
                   {proj.tag}
                 </span>
 

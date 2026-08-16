@@ -30,8 +30,8 @@ export default function WhyChooseUsSection() {
         {/* Section Header */}
         <div className="flex flex-col items-center text-center space-y-3">
           <div className="flex items-center gap-2.5">
-            <div className="w-6 h-[2px] bg-[#e02020]" />
-            <span className="font-outfit font-bold text-sm text-[#e02020]">
+            <div className="w-6 h-[2px] bg-[#C82127]" />
+            <span className="font-outfit font-bold text-sm text-[#C82127]">
               Why Choose Us
             </span>
           </div>
@@ -46,10 +46,10 @@ export default function WhyChooseUsSection() {
           {reasons.map((item, idx) => (
             <div
               key={idx}
-              className="relative bg-[#050507] border border-white/5 rounded-xl p-[28px] py-[32px] overflow-hidden group hover:border-[#e02020]/30 transition-all duration-300 shadow-md"
+              className="relative bg-[#050507] border border-white/5 rounded-xl p-[28px] py-[32px] overflow-hidden group hover:border-[#C82127]/30 transition-all duration-300 shadow-md"
             >
               {/* Check Icon */}
-              <div className="w-9 h-9 bg-[#e02020]/10 rounded-full flex items-center justify-center mb-5 border border-[#e02020]/20">
+              <div className="w-9 h-9 bg-[#C82127]/10 rounded-full flex items-center justify-center mb-5 border border-[#C82127]/20">
                 <Image
                   src="/assets/icon-check.svg"
                   alt="Check"
@@ -69,7 +69,7 @@ export default function WhyChooseUsSection() {
               </p>
 
               {/* Big Translucent Number */}
-              <span className="absolute top-3 right-4 font-outfit font-extrabold text-5xl text-[#e02020]/10 select-none pointer-events-none group-hover:text-[#e02020]/20 transition-colors">
+              <span className="absolute top-3 right-4 font-outfit font-extrabold text-5xl text-[#C82127]/10 select-none pointer-events-none group-hover:text-[#C82127]/20 transition-colors">
                 {item.num}
               </span>
             </div>

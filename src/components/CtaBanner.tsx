@@ -38,9 +38,9 @@ export default function CtaBanner({ onOpenConsultation }: CtaBannerProps) {
       {/* Content */}
       <div className="relative z-10 max-w-[800px] mx-auto px-6 text-center space-y-6">
         {/* Pill Badge */}
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#e02020]/10 border border-[#e02020]/30 shadow-inner">
-          <span className="w-1.5 h-1.5 rounded-full bg-[#e02020] animate-pulse" />
-          <span className="font-outfit font-bold text-xs md:text-sm text-[#e02020]">
+        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#C82127]/10 border border-[#C82127]/30 shadow-inner">
+          <span className="w-1.5 h-1.5 rounded-full bg-[#C82127] animate-pulse" />
+          <span className="font-outfit font-bold text-xs md:text-sm text-[#C82127]">
             Now Accepting New Projects
           </span>
         </div>
@@ -49,7 +49,7 @@ export default function CtaBanner({ onOpenConsultation }: CtaBannerProps) {
         <h2 className="font-outfit font-extrabold text-3xl sm:text-4xl lg:text-[48px] text-[#f0f0f2] leading-[1.2]">
           Ready to Build Your
           <br />
-          <span className="text-[#e02020]">Dream Theatre?</span>
+          <span className="text-[#C82127]">Dream Theatre?</span>
         </h2>
 
         {/* Paragraph */}
@@ -62,7 +62,7 @@ export default function CtaBanner({ onOpenConsultation }: CtaBannerProps) {
         <div className="pt-4 flex flex-wrap justify-center items-center gap-4">
           <a
             href="tel:+918943585212"
-            className="px-8 py-4 bg-[#e02020] hover:bg-[#c01818] border-2 border-[#e02020] rounded-md font-outfit font-bold text-sm text-[#f0f0f2] transition-all hover:shadow-xl hover:shadow-[#e02020]/30 active:scale-95 text-center inline-block"
+            className="px-8 py-4 bg-[#C82127] hover:bg-[#a81a1f] border-2 border-[#C82127] rounded-md font-outfit font-bold text-sm text-[#f0f0f2] transition-all hover:shadow-xl hover:shadow-[#C82127]/30 active:scale-95 text-center inline-block"
           >
             Contact us now
           </a>

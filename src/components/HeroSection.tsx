@@ -30,7 +30,7 @@ export default function HeroSection({ onOpenConsultation }: HeroSectionProps) {
         <div
           className="absolute left-[-100px] bottom-[100px] w-[500px] h-[500px] rounded-full pointer-events-none opacity-40 blur-3xl"
           style={{
-            background: "radial-gradient(circle, rgba(224,32,32,0.3) 0%, rgba(224,32,32,0) 70%)",
+            background: "radial-gradient(circle, rgba(200,33,39,0.3) 0%, rgba(200,33,39,0) 70%)",
           }}
         />
       </div>
@@ -40,8 +40,8 @@ export default function HeroSection({ onOpenConsultation }: HeroSectionProps) {
         <div className="max-w-[728px] space-y-6">
           {/* Section Subhead Label */}
           <div className="flex items-center gap-3">
-            <div className="w-8 h-[1.5px] bg-[#e02020]" />
-            <span className="font-outfit font-semibold text-xs md:text-[11px] text-[#e02020] tracking-[2.42px] uppercase">
+            <div className="w-8 h-[1.5px] bg-[#C82127]" />
+            <span className="font-outfit font-semibold text-xs md:text-[11px] text-[#C82127] tracking-[2.42px] uppercase">
               Kerala&apos;s Premier AV Specialists
             </span>
           </div>
@@ -51,10 +51,10 @@ export default function HeroSection({ onOpenConsultation }: HeroSectionProps) {
             Transform Your Home
             <br />
             Into a{" "}
-            <span className="relative inline-block text-[#e02020]">
+            <span className="relative inline-block text-[#C82127]">
               Cinematic
               {/* Red underline accent from Figma */}
-              <span className="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-[#e02020] to-transparent" />
+              <span className="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-[#C82127] to-transparent" />
             </span>{" "}
             Wonderland.
           </h1>
@@ -69,7 +69,7 @@ export default function HeroSection({ onOpenConsultation }: HeroSectionProps) {
           <div className="pt-4 flex flex-wrap gap-4 items-center">
             <a
               href="tel:+918943585212"
-              className="px-7 py-4 bg-[#e02020] hover:bg-[#c01818] border-2 border-[#e02020] rounded-md font-outfit font-bold text-sm text-[#f0f0f2] transition-all hover:shadow-xl hover:shadow-[#e02020]/30 active:scale-95 text-center inline-block"
+              className="px-7 py-4 bg-[#C82127] hover:bg-[#a81a1f] border-2 border-[#C82127] rounded-md font-outfit font-bold text-sm text-[#f0f0f2] transition-all hover:shadow-xl hover:shadow-[#C82127]/30 active:scale-95 text-center inline-block"
             >
               Contact us now
             </a>

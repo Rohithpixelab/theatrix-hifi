@@ -33,8 +33,8 @@ export default function OurProcessSection() {
         {/* Section Header */}
         <div className="flex flex-col items-center text-center space-y-3">
           <div className="flex items-center gap-2.5">
-            <div className="w-6 h-[2px] bg-[#e02020]" />
-            <span className="font-outfit font-bold text-sm text-[#e02020]">
+            <div className="w-6 h-[2px] bg-[#C82127]" />
+            <span className="font-outfit font-bold text-sm text-[#C82127]">
               How It Works
             </span>
           </div>

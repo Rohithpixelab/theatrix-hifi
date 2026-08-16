@@ -63,7 +63,7 @@ export default function Header({ onOpenConsultation }: HeaderProps) {
           <a
             href="tel:+918943585212"
             title="Call Us"
-            className="w-9 h-9 border border-white/12 rounded-full flex items-center justify-center transition-colors hover:border-[#e02020] hover:bg-[#e02020]/10"
+            className="w-9 h-9 border border-white/12 rounded-full flex items-center justify-center transition-colors hover:border-[#C82127] hover:bg-[#C82127]/10"
           >
             <Image
               src="/assets/icon-phone1.svg"

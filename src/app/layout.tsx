@@ -32,7 +32,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${outfit.variable} ${inter.variable} dark scroll-smooth`}>
-      <body className="bg-[#111115] text-[#f0f0f2] font-sans antialiased selection:bg-[#e02020] selection:text-white min-h-screen flex flex-col">
+      <body className="bg-[#111115] text-[#f0f0f2] font-sans antialiased selection:bg-[#C82127] selection:text-white min-h-screen flex flex-col">
         {children}
       </body>
     </html>
