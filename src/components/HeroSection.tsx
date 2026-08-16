@@ -16,14 +16,14 @@ export default function HeroSection({ onOpenConsultation }: HeroSectionProps) {
           alt="Home Theatre Setup"
           fill
           priority
-          className="object-cover object-center brightness-75 scale-105"
+          className="object-cover object-center brightness-90 scale-105"
         />
         {/* Figma linear gradients */}
         <div
           className="absolute inset-0"
           style={{
             backgroundImage:
-              "linear-gradient(0deg, rgba(10, 10, 12, 0.85) 0%, rgba(10, 10, 12, 0) 60%), linear-gradient(90deg, rgba(10, 10, 12, 0.96) 40%, rgba(10, 10, 12, 0.6) 100%)",
+              "linear-gradient(0deg, rgba(10, 10, 12, 0.5) 0%, rgba(10, 10, 12, 0) 50%), linear-gradient(90deg, rgba(10, 10, 12, 0.75) %, rgba(10, 10, 12, 0.25) 100%)",
           }}
         />
         {/* Radial ambient glow */}
@@ -67,12 +67,12 @@ export default function HeroSection({ onOpenConsultation }: HeroSectionProps) {
 
           {/* CTA Button Group */}
           <div className="pt-4 flex flex-wrap gap-4 items-center">
-            <button
-              onClick={onOpenConsultation}
-              className="px-7 py-4 bg-[#e02020] hover:bg-[#c01818] border-2 border-[#e02020] rounded-md font-outfit font-bold text-sm text-[#f0f0f2] transition-all hover:shadow-xl hover:shadow-[#e02020]/30 active:scale-95"
+            <a
+              href="tel:+918943585212"
+              className="px-7 py-4 bg-[#e02020] hover:bg-[#c01818] border-2 border-[#e02020] rounded-md font-outfit font-bold text-sm text-[#f0f0f2] transition-all hover:shadow-xl hover:shadow-[#e02020]/30 active:scale-95 text-center inline-block"
             >
-              Book a Free Consultation
-            </button>
+              Contact us now
+            </a>
             <a
               href="#portfolio"
               className="px-7 py-4 border-2 border-white/10 hover:border-white/20 hover:bg-white/5 rounded-md font-outfit font-bold text-sm text-[#f0f0f2] transition-all active:scale-95 text-center"

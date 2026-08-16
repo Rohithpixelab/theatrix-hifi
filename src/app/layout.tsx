@@ -18,6 +18,11 @@ export const metadata: Metadata = {
   title: "TheatrixHifi - Kerala's Premier Custom Home Theatre & Audiophile Specialists",
   description: "Kerala's trusted name in custom home theatres, HiFi audio, acoustic treatment, and smart home automation in Kochi, Kerala.",
   keywords: ["Home Theatre Kochi", "HiFi Audio Kerala", "Acoustic Treatments", "Smart Home Automation", "TheatrixHifi"],
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({

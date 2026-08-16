@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Logo from "./Logo";
 
 interface ConsultationModalProps {
   isOpen: boolean;
@@ -65,6 +66,9 @@ export default function ConsultationModal({ isOpen, onClose }: ConsultationModal
         ) : (
           <div>
             <div className="mb-6">
+              <div className="mb-3">
+                <Logo href="" size="md" />
+              </div>
               <div className="flex items-center gap-2 mb-2">
                 <div className="w-6 h-[2px] bg-[#e02020]" />
                 <span className="font-outfit font-bold text-xs uppercase tracking-wider text-[#e02020]">

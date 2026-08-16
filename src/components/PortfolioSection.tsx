@@ -89,16 +89,6 @@ export default function PortfolioSection({ onOpenConsultation }: PortfolioSectio
             </div>
           ))}
         </div>
-
-        {/* Center CTA Button */}
-        <div className="mt-10 text-center">
-          <button
-            onClick={onOpenConsultation}
-            className="px-8 py-3.5 bg-[#e02020] hover:bg-[#c01818] border-2 border-[#e02020] rounded-md font-outfit font-bold text-sm text-[#f0f0f2] shadow-lg shadow-[#e02020]/20 transition-all hover:scale-105"
-          >
-            View Full Portfolio
-          </button>
-        </div>
       </div>
     </section>
   );

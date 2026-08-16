@@ -60,12 +60,12 @@ export default function CtaBanner({ onOpenConsultation }: CtaBannerProps) {
 
         {/* Action Buttons */}
         <div className="pt-4 flex flex-wrap justify-center items-center gap-4">
-          <button
-            onClick={onOpenConsultation}
-            className="px-8 py-4 bg-[#e02020] hover:bg-[#c01818] border-2 border-[#e02020] rounded-md font-outfit font-bold text-sm text-[#f0f0f2] transition-all hover:shadow-xl hover:shadow-[#e02020]/30 active:scale-95"
+          <a
+            href="tel:+918943585212"
+            className="px-8 py-4 bg-[#e02020] hover:bg-[#c01818] border-2 border-[#e02020] rounded-md font-outfit font-bold text-sm text-[#f0f0f2] transition-all hover:shadow-xl hover:shadow-[#e02020]/30 active:scale-95 text-center inline-block"
           >
-            Get Started
-          </button>
+            Contact us now
+          </a>
 
           <a
             href="https://wa.me/918943585212"

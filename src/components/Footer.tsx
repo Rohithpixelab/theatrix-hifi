@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Logo from "./Logo";
 
 interface FooterProps {
   onOpenConsultation: () => void;
@@ -10,16 +11,9 @@ export default function Footer({ onOpenConsultation }: FooterProps) {
       <div className="max-w-[1280px] mx-auto px-6 pt-16 pb-10 space-y-12">
         {/* Top Brand & Social Row */}
         <div className="pb-10 border-b border-white/5 flex flex-col md:flex-row justify-between items-start gap-8">
-          <div className="space-y-3 max-w-[360px]">
+          <div className="space-y-4 max-w-[420px]">
             {/* Logo */}
-            <div className="flex items-center gap-1">
-              <span className="font-outfit font-extrabold text-[22px] text-[#f0f0f2] tracking-[2.2px]">
-                THEATRIX
-              </span>
-              <span className="font-outfit font-semibold text-[22px] text-[#e02020] tracking-[2.2px]">
-                HiFi
-              </span>
-            </div>
+            <Logo href="#" size="2xl" />
 
             <p className="font-inter font-medium text-xs text-[#b1b1b2] leading-[18px]">
               Your Premier Destination for Residential and Commercial High-End Audio-Visual and Acoustic Solutions.
