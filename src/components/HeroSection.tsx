@@ -23,7 +23,7 @@ export default function HeroSection({ onOpenConsultation }: HeroSectionProps) {
           className="absolute inset-0"
           style={{
             backgroundImage:
-              "linear-gradient(0deg, rgba(10, 10, 12, 0.5) 0%, rgba(10, 10, 12, 0) 50%), linear-gradient(90deg, rgba(10, 10, 12, 0.75) %, rgba(10, 10, 12, 0.25) 100%)",
+              "linear-gradient(0deg, rgba(10, 10, 12, 0.80) 0%, rgba(10, 10, 12, 0.00) 60%), linear-gradient(90deg, rgba(10, 10, 12, 0.95) 32.21%, rgba(10, 10, 12, 0.55) 53.37%)",
           }}
         />
         {/* Radial ambient glow */}
