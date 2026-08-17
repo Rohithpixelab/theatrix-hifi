@@ -22,11 +22,6 @@ export default function ServicesSection() {
       title: "Home Automation",
       desc: "One-touch control over lighting, climate, security, and entertainment — all from your phone.",
     },
-    {
-      icon: "/assets/icon-commercial.svg",
-      title: "Commercial Audio & Video",
-      desc: "AV systems for hotels, restaurants, offices, and event spaces, built for reliability at scale.",
-    },
   ];
 
   return (
@@ -54,7 +49,7 @@ export default function ServicesSection() {
         </div>
 
         {/* Services Cards Grid */}
-        <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+        <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((srv, idx) => (
             <div
               key={idx}
