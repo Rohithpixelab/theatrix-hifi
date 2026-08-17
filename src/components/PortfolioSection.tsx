@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Button from "./Button";
 
 interface PortfolioSectionProps {
   onOpenConsultation: () => void;
@@ -50,12 +51,12 @@ export default function PortfolioSection({ onOpenConsultation }: PortfolioSectio
             </p>
           </div>
 
-          <a
+          <Button
+            variant="outlined"
+            size="md"
             href="/portfolio"
-            className="inline-flex items-center px-5 py-2.5 border border-[#C82127]/30 rounded-md font-outfit font-bold text-sm text-[#C82127] hover:bg-[#C82127]/10 transition-colors w-fit"
-          >
-            View Full Portfolio →
-          </a>
+            text="View Full Portfolio →"
+          />
         </div>
 
         {/* 2x2 Grid of Cards */}

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Button from "./Button";
 
 interface CtaBannerProps {
   onOpenConsultation: () => void;
@@ -6,7 +7,7 @@ interface CtaBannerProps {
 
 export default function CtaBanner({ onOpenConsultation }: CtaBannerProps) {
   return (
-    <section className="relative w-full py-24 bg-[#111115] overflow-hidden">
+    <section id="cta" className="relative w-full py-24 bg-[#111115] overflow-hidden">
       {/* Background Image Overlay */}
       <div className="absolute inset-0 pointer-events-none opacity-15">
         <Image
@@ -60,28 +61,20 @@ export default function CtaBanner({ onOpenConsultation }: CtaBannerProps) {
 
         {/* Action Buttons */}
         <div className="pt-4 flex flex-wrap justify-center items-center gap-4">
-          <a
+          <Button
+            variant="primary"
+            size="lg"
             href="tel:+918943585212"
-            className="px-8 py-4 bg-[#C82127] hover:bg-[#a81a1f] border-2 border-[#C82127] rounded-md font-outfit font-bold text-sm text-[#f0f0f2] transition-all hover:shadow-xl hover:shadow-[#C82127]/30 active:scale-95 text-center inline-block"
-          >
-            Contact us now
-          </a>
+            text="Contact us now"
+          />
 
-          <a
+          <Button
+            variant="whatsapp"
+            size="lg"
             href="https://wa.me/918943585212"
             target="_blank"
-            rel="noopener noreferrer"
-            className="px-7 py-3.5 bg-[#25D366]/20 border-2 border-[#25D366]/40 hover:bg-[#25D366]/30 rounded-md font-outfit font-semibold text-sm text-[#f0f0f2] transition-all flex items-center gap-2.5 active:scale-95"
-          >
-            <Image
-              src="/assets/icon-whatsapp.svg"
-              alt="WhatsApp"
-              width={18}
-              height={18}
-              className="w-[18px] h-[18px]"
-            />
-            Chat on WhatsApp
-          </a>
+            text="Chat on WhatsApp"
+          />
         </div>
       </div>
     </section>

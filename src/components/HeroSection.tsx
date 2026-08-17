@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Button from "./Button";
 
 interface HeroSectionProps {
   onOpenConsultation: () => void;
@@ -67,18 +68,18 @@ export default function HeroSection({ onOpenConsultation }: HeroSectionProps) {
 
           {/* CTA Button Group */}
           <div className="pt-4 flex flex-wrap gap-4 items-center">
-            <a
+            <Button
+              variant="primary"
+              size="lg"
               href="tel:+918943585212"
-              className="px-7 py-4 bg-[#C82127] hover:bg-[#a81a1f] border-2 border-[#C82127] rounded-md font-outfit font-bold text-sm text-[#f0f0f2] transition-all hover:shadow-xl hover:shadow-[#C82127]/30 active:scale-95 text-center inline-block"
-            >
-              Contact us now
-            </a>
-            <a
-              href="#portfolio"
-              className="px-7 py-4 border-2 border-white/10 hover:border-white/20 hover:bg-white/5 rounded-md font-outfit font-bold text-sm text-[#f0f0f2] transition-all active:scale-95 text-center"
-            >
-              View Our Work
-            </a>
+              text="Contact us now"
+            />
+            <Button
+              variant="outlined"
+              size="lg"
+              href="/portfolio"
+              text="View Our Work"
+            />
           </div>
         </div>
       </div>

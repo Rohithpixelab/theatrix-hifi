@@ -164,35 +164,6 @@ export default function PortfolioPage() {
               Every project in this portfolio was designed, installed, and calibrated in-house — from initial site visit to final listening session.
             </p>
           </div>
-
-          <div className="pt-4 flex flex-wrap items-center gap-10 md:gap-16 border-t border-white/10 max-w-[620px]">
-            <div>
-              <span className="font-outfit font-extrabold text-2xl md:text-3xl text-white block">
-                200+
-              </span>
-              <span className="font-inter font-medium text-xs md:text-sm text-[#b1b1b2]">
-                Total Installations
-              </span>
-            </div>
-
-            <div>
-              <span className="font-outfit font-extrabold text-2xl md:text-3xl text-white block">
-                15+
-              </span>
-              <span className="font-inter font-medium text-xs md:text-sm text-[#b1b1b2]">
-                Years Active
-              </span>
-            </div>
-
-            <div>
-              <span className="font-outfit font-extrabold text-2xl md:text-3xl text-white block">
-                5
-              </span>
-              <span className="font-inter font-medium text-xs md:text-sm text-[#b1b1b2]">
-                Service Verticals
-              </span>
-            </div>
-          </div>
         </div>
       </section>
 

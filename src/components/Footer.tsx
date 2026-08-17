@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Logo from "./Logo";
 
 interface FooterProps {
@@ -61,8 +62,8 @@ export default function Footer({ onOpenConsultation }: FooterProps) {
           </div>
         </div>
 
-        {/* 4 Column Links & Information */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        {/* 3 Column Links & Information */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Col 1: Services */}
           <div className="space-y-3">
             <h4 className="font-outfit font-bold text-sm text-[#b1b1b2]">
@@ -109,14 +110,9 @@ export default function Footer({ onOpenConsultation }: FooterProps) {
                 </a>
               </li>
               <li>
-                <a href="#portfolio" className="hover:text-[#f0f0f2] transition-colors">
+                <Link href="/portfolio" className="hover:text-[#f0f0f2] transition-colors">
                   Portfolio
-                </a>
-              </li>
-              <li>
-                <a href="#why-us" className="hover:text-[#f0f0f2] transition-colors">
-                  Brands We Carry
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="#" className="hover:text-[#f0f0f2] transition-colors">
@@ -129,9 +125,9 @@ export default function Footer({ onOpenConsultation }: FooterProps) {
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-[#f0f0f2] transition-colors">
+                <Link href="/#cta" className="hover:text-[#f0f0f2] transition-colors">
                   Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -187,46 +183,11 @@ export default function Footer({ onOpenConsultation }: FooterProps) {
               </div>
             </div>
           </div>
-
-          {/* Col 4: Showroom Hours */}
-          <div className="space-y-3">
-            <h4 className="font-outfit font-bold text-sm text-[#b1b1b2]">
-              Showroom Hours
-            </h4>
-            <div className="space-y-2">
-              <div>
-                <p className="font-outfit font-bold text-sm text-[#68686a]">
-                  Mon – Sat
-                </p>
-                <p className="font-inter font-medium text-sm text-[#68686a]">
-                  10:00 AM – 7:00 PM
-                </p>
-              </div>
-
-              <div className="pt-1">
-                <p className="font-outfit font-bold text-sm text-[#68686a]">
-                  Sunday
-                </p>
-                <p className="font-inter font-medium text-sm text-[#68686a]">
-                  By Appointment
-                </p>
-              </div>
-
-              <div className="pt-3">
-                <button
-                  onClick={onOpenConsultation}
-                  className="font-outfit font-semibold text-xs text-[#C82127] tracking-wider uppercase hover:underline"
-                >
-                  Book a Visit →
-                </button>
-              </div>
-            </div>
-          </div>
         </div>
 
         {/* Bottom Copyright Row */}
         <div className="pt-8 border-t border-white/5 flex flex-col sm:flex-row justify-between items-center gap-3 font-inter font-medium text-xs text-[#68686a]">
-          <p>© 2024 TheatrixHifi. All rights reserved.</p>
+          <p>© 2026 TheatrixHifi. All rights reserved. Implemented by Lightbulb Creative Media</p>
           <p>Kochi, Kerala, India</p>
         </div>
       </div>

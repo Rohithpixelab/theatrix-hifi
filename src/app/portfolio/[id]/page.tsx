@@ -6,6 +6,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ConsultationModal from "@/components/ConsultationModal";
+import Button from "@/components/Button";
 
 interface PageProps {
   params: Promise<{ id: string }>;
@@ -272,12 +273,13 @@ export default function ProjectDetailsPage({ params }: PageProps) {
 
             {/* CTA Button: Contact Us Now (Direct Call) */}
             <div className="pt-2">
-              <a
+              <Button
+                variant="primary"
+                size="lg"
+                fullWidth
                 href="tel:+918943585212"
-                className="w-full py-4 bg-[#C82127] hover:bg-[#a81a1f] font-outfit font-bold text-sm text-white rounded-md transition-all shadow-lg shadow-[#C82127]/25 text-center block cursor-pointer active:scale-[0.99]"
-              >
-                Contact us now
-              </a>
+                text="Contact us now"
+              />
             </div>
           </div>
 

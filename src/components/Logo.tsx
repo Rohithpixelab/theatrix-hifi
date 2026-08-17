@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 interface LogoProps {
   className?: string;
@@ -25,7 +26,7 @@ export function LogoIcon({ className = "w-12 h-12" }: { className?: string }) {
 export default function Logo({
   className = "",
   size = "xl",
-  href = "#",
+  href = "/",
 }: LogoProps) {
   const iconSizes = {
     sm: "w-8 h-8",
@@ -44,7 +45,7 @@ export default function Logo({
   );
 
   if (href) {
-    return <a href={href}>{content}</a>;
+    return <Link href={href}>{content}</Link>;
   }
 
   return content;
