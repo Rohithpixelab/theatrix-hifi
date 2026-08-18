@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Outfit, Inter } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -81,7 +81,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default function AppLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -94,4 +94,3 @@ export default function RootLayout({
     </html>
   );
 }
-
